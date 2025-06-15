@@ -15,3 +15,32 @@ A simple Django application that displays a paginated and searchable list of boo
 
 ## 📁 Project Structure
 
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+bash
+    git clone https://github.com/yourusername/django-book-pagination.git
+    cd django-book-pagination
+
+### 2. Create a virtual environment
+bash
+    python -m venv env
+    source env/bin/activate  # On Windows: env\Scripts\activate
+
+### 3. Install dependencies
+bash
+    pip install django
+
+### 4. Run migrations
+bash
+    python manage.py makemigrations
+    python manage.py migrate
+
+### 5. Create superuser (optional)
+bash
+    python manage.py createsuperuser
+
+### 6. Run the server
+bash
+python manage.py runserver
